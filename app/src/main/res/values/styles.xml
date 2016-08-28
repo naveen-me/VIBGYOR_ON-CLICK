@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="BG">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="red" parent="BG">
+        <item name="android:background">#FF0000</item>
+        <item name="android:text">@string/red</item>
+    </style>
+    <style name="orange" parent="BG">
+        <item name="android:background">#FFA500</item>
+        <item name="android:text">@string/orange</item>
+    </style>
+    <style name="yellow" parent="BG">
+        <item name="android:text">@string/yellow</item>
+        <item name="android:background">#FFFF00</item>
+    </style>
+    <style name="green" parent="BG">
+        <item name="android:text">@string/green</item>
+        <item name="android:background">#00FF00</item>
+    </style>
+    <style name="blue" parent="BG">
+        <item name="android:text">@string/blue</item>
+        <item name="android:background">#0000ff</item>
+    </style>
+    <style name="indigo" parent="BG">
+        <item name="android:text">@string/indigo</item>
+        <item name="android:background">#8A2BE2</item>
+    </style>
+    <style name="violet" parent="BG">
+        <item name="android:text">@string/violet</item>
+        <item name="android:background">#EE82EE</item>
+    </style>
+
+</resources>

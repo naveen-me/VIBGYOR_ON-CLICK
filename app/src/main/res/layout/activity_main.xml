@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.naveen.vibgyoronclick.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/red"
+        android:onClick="red"
+        android:layout_height="wrap_content"
+        android:text="@string/red" />
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/orange"
+        android:onClick="orange"
+        android:layout_height="wrap_content"
+        android:text="@string/orange" />
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/yellow"
+        android:onClick="yellow"
+        android:layout_height="wrap_content"
+        android:text="@string/yellow" />
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/green"
+        android:onClick="green"
+        android:layout_height="wrap_content"
+        android:text="@string/green" />
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/blue"
+        android:onClick="blue"
+        android:layout_height="wrap_content"
+        android:text="@string/blue" />
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/indigo"
+        android:onClick="indigo"
+        android:layout_height="wrap_content"
+        android:text="@string/indigo" />
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/violet"
+        android:onClick="violet"
+        android:layout_height="wrap_content"
+        android:text="@string/violet" />
+
+</LinearLayout>
